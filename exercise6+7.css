@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  /* gap: 30px 30px; */
+  column-gap: 30px;
+}
+
+.navbar ul {
+  /* border: 25px solid rgb(217, 145, 157); */
+  list-style: none;
+  /* background-color: rgb(217, 145, 157); */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-size: 20px; */
+  /* font-weight: bold; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px 40px;
+}
+.logo {
+  width: 50px;
+  height: 30px;
+  display: flex;
+  gap: 30px;
+  justify-content: first baseline;
+  /* align-items: center; */
+}
+.navbar ul li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+nav ul li span {
+  padding: 8px;
+}
+/* .center{
+    width: 137px;
+height: 100px;
+padding: 10px 5px 5px 5px;
+/* display: flex;
+justify-content: center; */
+/* background-color: rgb(109, 111, 111); */
+*/
+  /* }  */
+   .pr p {
+  width: 10vw;
+}
+.item {
+  display: flex;
+  width: 242px;
+  margin: 15px;
+  height: 125px;
+  flex-direction: column;
+  background-color: rgb(244, 244, 244);
+  justify-content: center;
+  align-content: center;
+  margin: 14px;
+}
+  /* margin: auto; */
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+}
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+
+/* .grid .item{
+     text-align: center;
+    /* justify-content: center; */
+
+.grid .item-lang {
+  text-align: center;
+  margin: 0px 20px;
+  padding: 10px;
+  font-weight: 550;
+  font-size: 16px;
+}
+
+.green {
+  background-color: rgb(62, 220, 62);
+  border: none;
+  font-family: cursive;
+  color: rgb(111, 89, 47);
+  padding: 3px;
+}
+.blue {
+  background-color: rgb(80, 207, 249);
+  border: none;
+  font-family: cursive;
+  padding: 3px;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 23px;
+  margin: 40px;
+  font-family: "Segoe UI";
+}
+.first p {
+  font-size: 24px;
+  width: 64vw;
+  text-align: center;
+  margin: 19px;
+}
+.first span {
+  font-size: 28px;
+  margin: 5px 5px 0px 0px;
+  font-size: 38px;
+}
+.first div button {
+  border: none;
+  border-radius: 3px;
+  padding: 9px 9px;
+  font-size: 17px;
+  color: white;
+  background-color: #86daff;
+  font-family: cursive;
+  font-weight: bold;
+}
+.line {
+  padding: 29px;
+  display: flex;
+  justify-content: flex-start;
+  /* flex-direction: column; */
+  align-items: center;
+  gap: 5px;
+}
+/* .item{
+        width: 137px;
+        height: 100px;
+    } */
+.hard {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.btn {
+  display: flex;
+  padding: 11px;
+  flex-direction: row;
+  gap: 13px 13px;
+}
+/* .hard{
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+} */
+ 
+ .second{
+  box-sizing: border-box;
+  max-width: 57vw;
+  margin: auto;
+ }
+ @media only screen and (max-width: 700px){
+  .grid{
+    grid-template-columns: 1fr;
+  }
+
+}
+
+  
+ 
